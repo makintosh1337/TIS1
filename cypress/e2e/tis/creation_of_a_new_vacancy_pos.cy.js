@@ -56,6 +56,9 @@ describe('Создание вакансии', () => {
             // 4. Сохранение
             cy.log('Сохраняем вакансию')
             cy.get('.vacancy-add-form-wrapper > .form > .form__buttons > .buttons > .button').click()
+
+            // cy.log('Пубикация вакансии')
+            // cy.get(':nth-child(1) > .vacancy-item__info-wrapper > .vacancy-item__footer-wrapper > .vacancy-footer > .vacancy-footer__button-wrapper > .button__background-color-green').click()
         })
     })
 })
